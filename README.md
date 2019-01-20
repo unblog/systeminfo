@@ -12,11 +12,13 @@ Collects system information and operating status while the output is written to 
 
 ## Preface
 
-The purpose is to systematize the helpdesk department, callect stats of linux machines with processing reports provide accurat health data to analysis and his problem solving, it allows a efficient and fatser settlement.
+The purpose is to systematize the helpdesk department, callecting stats of linux machines with accurat health data, build reporting for analysis to provide for problem solving, it allows a efficient and fatser settlement.
 
-This bash script is executable on most Linux distributions, suitable and tested for Ubuntu, Debian, CentOS and Fedora.
+Helpful in remote maintenance, after running sysinfo the report can be sent to the helpdesk.
 
 ## Usage
+
+This bash script is executable on several Linux distributions, suitable and tested for Ubuntu, Debian, CentOS and Fedora.
 
 Open a Linux Terminal (Ctrl+Alt+T) and execute sysinfo.sh, root is not mandatory, but more data will be collected.
 
@@ -32,7 +34,7 @@ Preferred to use sysinfo for a helpdesk department, place the shell script on th
 Execute sysinfo using curl out from bash:
 
 ```sh
-~]# . <(curl -s https://ipline.ch/echo/sysinfo.txt)
+# . <(curl -s https://ipline.ch/echo/sysinfo.txt)
 ```
 
 ## Feedback
