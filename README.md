@@ -18,7 +18,7 @@ This bash script is executable on most Linux distributions, suitable and tested 
 
 ## Usage
 
-Open a Linux Terminal and execute sysinfo.sh, root is not mandatory, but more data will be collected.
+Open a Linux Terminal (Ctrl+Alt+T) and execute sysinfo.sh, root is not mandatory, but more data will be collected.
 
 ```sh
 $ git clone https://github.com/donkey/systeminfo.git
@@ -27,7 +27,7 @@ $ chmod +x sysinfo.sh
 $ ./sysinfo.sh
 ```
 
-Preferred to use sysinfo for a helpdesk department put the shell script to your webserver and save it as sysinfo.txt
+Preferred to use sysinfo for a helpdesk department, place the shell script on the webserver and save it as sysinfo.txt under the document root.
 
 Execute sysinfo using curl out from bash:
 
