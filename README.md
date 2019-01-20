@@ -45,7 +45,11 @@ git clone https://github.com/donkey/systeminfo.git
 ```
 
 ## Screenshot
-![System Information](https://github.com/donkey/systeminfo/blob/master/sysinfo.png)  
+![System Information](https://github.com/donkey/systeminfo/blob/master/sysinfo.png)
+
+## Addendum
+
+This script is developed in not very structured way, so it is simply to modify individual lines or omit them altogether, it should be easily customizable.
 
 ## license
 
