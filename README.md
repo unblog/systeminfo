@@ -45,7 +45,7 @@ git clone https://github.com/donkey/systeminfo.git
 ```
 
 ## Screenshot
-![System Information](https://github.com/donkey/systeminfo/sysinfo.png)
+![System Information](systeminfo/sysinfo.png)  
 
 ## license
 
