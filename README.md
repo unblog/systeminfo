@@ -12,7 +12,7 @@ Collects system information and operating status while the output is written to 
 
 ## Preface
 
-The purpose is to systematize the helpdesk department, with processing aqurat health data for analysis and his problem solving, it allows a efficient and fatser settlement.
+The purpose is to systematize the helpdesk department, callect stats of linux machines with processing reports provide accurat health data to analysis and his problem solving, it allows a efficient and fatser settlement.
 
 This bash script is executable on most Linux distributions, suitable and tested for Ubuntu, Debian, CentOS and Fedora.
 
@@ -43,6 +43,9 @@ If you have problems, questions, ideas or suggestions, please contact my by post
 ```
 git clone https://github.com/donkey/systeminfo.git
 ```
+
+## Screenshot
+![System Information](https://github.com/donkey/systeminfo/sysinfo.png)
 
 ## license
 
