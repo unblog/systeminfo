@@ -49,7 +49,7 @@ git clone https://github.com/donkey/systeminfo.git
 
 ## Addendum
 
-This script is developed in not very structured way, so it is simply to modify individual lines or omit them altogether, it should be easily customizable.
+This script is intentional developed in not very structured way, so it is simply to modify individual lines or omit them altogether, it should be easily customizable.
 
 ## license
 
