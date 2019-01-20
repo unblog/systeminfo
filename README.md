@@ -18,14 +18,14 @@ This bash script is executable on most Linux distributions, suitable and tested 
 
 ## Usage
 
-Open a Linux Terminal and become as root, root is not mandatory, but more data will be collected.
+Open a Linux Terminal and execute sysinfo.sh, root is not mandatory, but more data will be collected.
 
 ```sh
 chmod +x sysinfo.sh
 ./sysinfo.sh
 ```
 
-or put the shell script to your server and save it to sysinfo.txt
+Preferred to use sysinfo for a helpdesk department put the shell script to your webserver and save it as sysinfo.txt
 
 Execute sysinfo using curl out from bash:
 
