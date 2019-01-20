@@ -34,7 +34,7 @@ Preferred to use sysinfo for a helpdesk department, place the shell script on th
 Execute sysinfo using curl out from bash:
 
 ```sh
-# . <(curl -s https://ipline.ch/echo/sysinfo.txt)
+~]# . <(curl -s https://ipline.ch/echo/sysinfo.txt)
 ```
 
 ## Feedback
