@@ -39,7 +39,7 @@ Execute sysinfo using curl out from bash:
 
 ## Feedback
 
-If you have problems, questions, ideas or suggestions, please contact my by posting to a suitable [mail](http://think.unblog.ch/kontakt)
+If you have problems, questions, ideas or suggestions, please contact my by posting to a suitable [mail](http://think.unblog.ch/kontakt).
 
 ## Git
 ```
