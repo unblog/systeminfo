@@ -9,22 +9,22 @@ echo "<!DOCTYPE html>
 <table>" > $outfile
 systitle=`uname -sorn`
 system=`uname -a`
-echo "<H1>$systitle</H1>" >> $outfile
-echo "<tr><td bgcolor=#F8E0E6>$system</td></tr>" >> $outfile
 uptime=`uptime`
-echo "<tr><td bgcolor=#F8E0E0>$uptime</td></tr>" >> $outfile
-release=`cat /etc/*release*` 
-echo "<tr><td bgcolor=#F8E6E0><pre>$release</pre></td></tr>" >> $outfile
+release=`cat /etc/*release*`
 cpu1=`cat /proc/cpuinfo | grep 'vendor' | uniq`
 cpu2=`cat /proc/cpuinfo | grep 'model name' | uniq`
 cpu3=`cat /proc/cpuinfo | grep processor | wc -l`
 cpu4=`cat /proc/cpuinfo | grep 'core id'`
-echo "<tr><td bgcolor=#F8ECE0>CPU Information:<br>$cpu1,$cpu2,$cpu3,$cpu4</td></tr>" >> $outfile
 free=`free -m`
 disk=`df -m`
-echo "<tr><td bgcolor=#F7F2E0>Memory Disk Resource:<br><pre>$free</pre><br><pre>$disk</pre></td></tr>" >> $outfile
 bootmsg=`dmesg | grep error`
-echo "<tr><td bgcolor=#F7F8E0>Boot Messages(errors)<br><pre>$bootmsg</pre></td></tr>" >> $outfile
+echo "<H1>$systitle</H1>"
+     "<tr><td bgcolor=#F8E0E6>$system</td></tr>"
+     "<tr><td bgcolor=#F8E0E0>$uptime</td></tr>"
+     "<tr><td bgcolor=#F8E6E0><pre>$release</pre></td></tr>"
+     "<tr><td bgcolor=#F8ECE0>CPU Information:<br>$cpu1,$cpu2,$cpu3,$cpu4</td></tr>"
+     "<tr><td bgcolor=#F7F2E0>Memory Disk Resource:<br><pre>$free</pre><br><pre>$disk</pre></td></tr>"
+     "<tr><td bgcolor=#F7F8E0>Boot Messages(errors)<br><pre>$bootmsg</pre></td></tr>" >> $outfile
 if [ -e /var/log/syslog ]; then
   syslog=`tail -25 /var/log/syslog`
   echo "<tr><td bgcolor=#F1F8E0>SYSLOG:/var/log/syslog<br><pre>$syslog</pre></td></tr>" >> $outfile
