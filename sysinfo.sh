@@ -18,13 +18,13 @@ cpu4=`cat /proc/cpuinfo | grep 'core id'`
 free=`free -m`
 disk=`df -m`
 bootmsg=`dmesg | grep error`
-echo "<H1>$systitle</H1>"
-     "<tr><td bgcolor=#F8E0E6>$system</td></tr>"
-     "<tr><td bgcolor=#F8E0E0>$uptime</td></tr>"
-     "<tr><td bgcolor=#F8E6E0><pre>$release</pre></td></tr>"
-     "<tr><td bgcolor=#F8ECE0>CPU Information:<br>$cpu1,$cpu2,$cpu3,$cpu4</td></tr>"
-     "<tr><td bgcolor=#F7F2E0>Memory Disk Resource:<br><pre>$free</pre><br><pre>$disk</pre></td></tr>"
-     "<tr><td bgcolor=#F7F8E0>Boot Messages(errors)<br><pre>$bootmsg</pre></td></tr>" >> $outfile
+echo "<H1>$systitle</H1>
+      <tr><td bgcolor=#F8E0E6>$system</td></tr>
+      <tr><td bgcolor=#F8E0E0>$uptime</td></tr>
+      <tr><td bgcolor=#F8E6E0><pre>$release</pre></td></tr>
+      <tr><td bgcolor=#F8ECE0>CPU Information:<br>$cpu1,$cpu2,$cpu3,$cpu4</td></tr>
+      <tr><td bgcolor=#F7F2E0>Memory Disk Resource:<br><pre>$free</pre><br><pre>$disk</pre></td></tr>
+      <tr><td bgcolor=#F7F8E0>Boot Messages(errors)<br><pre>$bootmsg</pre></td></tr>" >> $outfile
 if [ -e /var/log/syslog ]; then
   syslog=`tail -25 /var/log/syslog`
   echo "<tr><td bgcolor=#F1F8E0>SYSLOG:/var/log/syslog<br><pre>$syslog</pre></td></tr>" >> $outfile
@@ -36,7 +36,7 @@ fi
 devices=`lspci`
 echo "<tr><td bgcolor=#E6F8E0>PCI Device list<br><pre>$devices</pre></td></tr>" >> $outfile
 if [ -e /usr/bin/inxi ]
-then
+then 
    sum=`inxi -b -c 0`
    echo "<tr><td bgcolor=#E0F8E0>System Summary Information:<br><pre>$sum</pre></td></tr>" >> $outfile
 else
