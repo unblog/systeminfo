@@ -1,4 +1,5 @@
 #!/bin/bash
+# last modify 28.2.2019 16:02 CET
 outfile="/tmp/sysinfo-$(date +\%s).html"
 echo "<!DOCTYPE html>
 <head>
