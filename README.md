@@ -12,7 +12,7 @@ Collects system information and operating status while the output is written to 
 
 ## Preface
 
-The purpose is to systematize the helpdesk department, callecting stats of linux machines with accurat health data, build reporting for analysis to provide for problem solving, it allows a efficient and fatser settlement.
+The purpose is to systematize the helpdesk department, callecting stats of linux machines with accurat health data, build reporting and analysis to provide problem solving, it allows a efficient and fatser settlement.
 
 Helpful in remote maintenance, after running sysinfo the report can be sent to the helpdesk.
 
