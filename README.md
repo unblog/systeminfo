@@ -2,13 +2,13 @@
 
 Collects system information and operating status while the output is written to an HTML file.
 
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/donkey/systeminfo)
-[![GitHub issues](https://img.shields.io/github/issues/donkey/systeminfo.svg)](https://github.com/donkey/systeminfo/issues)
-[![GitHub forks](https://img.shields.io/github/forks/donkey/systeminfo.svg)](https://github.com/donkey/systeminfo/network)
-[![GitHub stars](https://img.shields.io/github/stars/donkey/systeminfo.svg)](https://github.com/donkey/systeminfo/stargazers)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/donkey/systeminfo)
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://github.com/donkey/systeminfo)
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/donkey/systeminfo)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/unblog/systeminfo)
+[![GitHub issues](https://img.shields.io/github/issues/donkey/systeminfo.svg)](https://github.com/unblog/systeminfo/issues)
+[![GitHub forks](https://img.shields.io/github/forks/donkey/systeminfo.svg)](https://github.com/unblog/systeminfo/network)
+[![GitHub stars](https://img.shields.io/github/stars/donkey/systeminfo.svg)](https://github.com/unblog/systeminfo/stargazers)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/unblog/systeminfo)
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://github.com/unblog/systeminfo)
+[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/unblog/systeminfo)
 
 ## Preface
 
@@ -23,7 +23,7 @@ This bash script is executable on several Linux distributions, suitable and test
 Open a Linux Terminal (Ctrl+Alt+T) and execute sysinfo.sh, root is not mandatory, but more data will be collected.
 
 ```sh
-$ git clone https://github.com/donkey/systeminfo.git
+$ git clone https://github.com/unblog/systeminfo.git
 $ cd systeminfo
 $ chmod +x sysinfo.sh
 $ ./sysinfo.sh
@@ -39,15 +39,15 @@ Execute sysinfo using curl out from bash:
 
 ## Feedback
 
-If you have problems, questions, ideas or suggestions, please contact my by posting to a suitable [mail](http://think.unblog.ch/kontakt).
+If you have problems, questions, ideas or suggestions, please contact my by posting to a suitable [mail](http://think.unblog.ch/stay-in-touch).
 
 ## Git
 ```
-git clone https://github.com/donkey/systeminfo.git
+git clone https://github.com/unblog/systeminfo.git
 ```
 
 ## Screenshot
-![System Information](https://github.com/donkey/systeminfo/blob/master/sysinfo.png)
+![System Information](https://github.com/unblog/systeminfo/blob/master/sysinfo.png)
 
 ## Addendum
 
